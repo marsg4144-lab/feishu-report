@@ -2,7 +2,8 @@ name: Send Feishu Report
 
 on:
   schedule:
-    - cron: '30 13 * * *'
+    - cron: '50 21 * * *'
+  workflow_dispatch:
 
 jobs:
   send:
